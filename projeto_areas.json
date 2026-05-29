@@ -1,0 +1,122 @@
+{
+  "integracao": {
+    "tap": "Projeto: Sistema de Rastreamento de produtos \n1- Rastrear em tempo real o produto.\n2-Informar caso algum acidente ou desavença aconteça.\n3-Mostrar Data, Local e Hora.\n4-Informar Rua, Estado e Cidade .\n5-Informar estado do entregador.\n"
+  },
+  "escopo": {
+    "entregas": [
+      "Módulo de autenticação",
+      "Dashboard de métricas"
+    ],
+    "atividades": [
+      "Levantamento de requisitos",
+      "Design de interface"
+    ]
+  },
+  "tempo": {
+    "cronograma": [
+      {
+        "atividade": "Definir escopo",
+        "responsavel": "Ana",
+        "validacao": "Aprovado pelo gestor",
+        "dataEntrega": "2025-06-10"
+      },
+      {
+        "atividade": "Desenvolvimento front-end",
+        "responsavel": "Carlos",
+        "validacao": "Testes unitários",
+        "dataEntrega": "2025-06-25"
+      }
+    ]
+  },
+  "partes": {
+    "stakeholders": [
+      {
+        "nome": "João (Gerente)",
+        "estrategia": "Reuniões quinzenais"
+      },
+      {
+        "nome": "Usuários finais",
+        "estrategia": "Workshops de co-criação"
+      }
+    ]
+  },
+  "rh": {
+    "equipe": [
+      {
+        "papel": "Product Owner",
+        "responsavel": "Mariana",
+        "habilidades": "Visão de negócio"
+      },
+      {
+        "papel": "Dev Front-end",
+        "responsavel": "Lucas",
+        "habilidades": "HTML/CSS/JS"
+      }
+    ]
+  },
+  "comunicacao": {
+    "planoComunicacao": [
+      {
+        "canal": "Slack",
+        "frequencia": "Diário",
+        "responsavel": "Todos"
+      },
+      {
+        "canal": "E-mail semanal",
+        "frequencia": "Sexta-feira",
+        "responsavel": "PMO"
+      }
+    ]
+  },
+  "custos": {
+    "orcamentos": [
+      {
+        "atividade": "Pesquisa UX",
+        "equipe": 1200,
+        "materiais": 200,
+        "equipamentos": 300
+      },
+      {
+        "atividade": "Desenvolvimento",
+        "equipe": 5000,
+        "materiais": 0,
+        "equipamentos": 800
+      }
+    ]
+  },
+  "aquisicoes": {
+    "contratos": [
+      {
+        "fornecedor": "Cloud Solutions",
+        "objeto": "Hospedagem",
+        "status": "Em negociação"
+      }
+    ]
+  },
+  "riscos": {
+    "riscosLista": [
+      {
+        "descricao": "Atraso na aprovação",
+        "impacto": "Negativo",
+        "planoResposta": "Acionar plano de contingência"
+      },
+      {
+        "descricao": "Adoção de nova tecnologia acelera entrega",
+        "impacto": "Positivo",
+        "planoResposta": "Capacitar equipe"
+      }
+    ]
+  },
+  "qualidade": {
+    "criterios": [
+      {
+        "metrica": "Cobertura de testes > 80%",
+        "aceitacao": "Todos os PRs aprovados"
+      },
+      {
+        "metrica": "Tempo de resposta < 2s",
+        "aceitacao": "Auditoria de performance"
+      }
+    ]
+  }
+}
